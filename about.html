@@ -21,8 +21,17 @@
         <nav class="navbar" role="navigation" aria-label="Main navigation">
             <div class="container">
                 <a href="index.html" class="logo" aria-label="Siren Beauty + Wellness Home">
+                    <div class="logo-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 10 C35 10, 25 20, 25 35 C25 45, 30 55, 40 60 L40 75 C40 80, 45 85, 50 85 C55 85, 60 80, 60 75 L60 60 C70 55, 75 45, 75 35 C75 20, 65 10, 50 10 Z" fill="currentColor"/>
+                            <path d="M35 75 Q30 80, 25 85" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M65 75 Q70 80, 75 85" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text-group">
                     <span class="logo-text">SIREN</span>
                     <span class="logo-subtitle">Beauty + Wellness</span>
+                    </div>
                 </a>
                 
                 <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -37,6 +46,24 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="index.html#book" class="btn-primary">Book Now</a></li>
+                    <li>
+                        <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+                            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="5"/>
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </svg>
+                            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -62,7 +89,7 @@
                         
                         <p>As a woman-founded, locally owned boutique med spa, we've created a sanctuary in downtown Buda's historic district where cutting-edge aesthetic treatments meet mindful wellness practices. Our approach is rooted in science, elevated by artistry, and grounded in genuine care for each person who walks through our doors.</p>
                         
-                        <p>We believe in the power of taking time for yourself—to slow down, breathe deeply, and embrace rituals that nurture both body and spirit. Every treatment we offer is designed not just to enhance your appearance, but to help you feel more confident, radiant, and authentically yourself.</p>
+                        <p>We believe in the power of taking time for yourselfâ€”to slow down, breathe deeply, and embrace rituals that nurture both body and spirit. Every treatment we offer is designed not just to enhance your appearance, but to help you feel more confident, radiant, and authentically yourself.</p>
                         
                         <p>Our mission is to provide exceptional aesthetic care in an environment that feels less like a medical office and more like a restorative retreat. We're honored to serve our community and help each client discover their most confident, beautiful self.</p>
                     </div>
@@ -83,22 +110,22 @@
                 
                 <div class="values-grid">
                     <div class="value-card">
-                        <div class="value-icon" aria-hidden="true">🌟</div>
+                        <div class="value-icon" aria-hidden="true">ðŸŒŸ</div>
                         <h3>Excellence</h3>
                         <p>We're committed to the highest standards in aesthetic medicine, using premium products and advanced techniques.</p>
                     </div>
                     <div class="value-card">
-                        <div class="value-icon" aria-hidden="true">💚</div>
+                        <div class="value-icon" aria-hidden="true">ðŸ’š</div>
                         <h3>Authenticity</h3>
                         <p>We enhance your natural beauty rather than chase unrealistic ideals, celebrating what makes you uniquely you.</p>
                     </div>
                     <div class="value-card">
-                        <div class="value-icon" aria-hidden="true">🤝</div>
+                        <div class="value-icon" aria-hidden="true">ðŸ¤</div>
                         <h3>Care</h3>
                         <p>Every client receives personalized attention, thoughtful consultation, and treatments tailored to their goals.</p>
                     </div>
                     <div class="value-card">
-                        <div class="value-icon" aria-hidden="true">🏡</div>
+                        <div class="value-icon" aria-hidden="true">ðŸ¡</div>
                         <h3>Community</h3>
                         <p>As a locally owned business, we're proud to contribute to Buda's vibrant community and support our neighbors.</p>
                     </div>
@@ -116,40 +143,41 @@
                 </div>
                 
                 <div class="team-grid">
-                    <!-- Team Member 1 - Creative Director -->
+                    <!-- Team Member 1 - Bex (Creative Director) -->
                     <article class="team-member">
                         <div class="team-photo">
                             <div class="team-image-wrapper">
-                                <img src="images/team-director.jpg" alt="Portrait of Sarah Mitchell, Founder and Creative Director of Siren Beauty + Wellness" loading="lazy">
+                                <img src="assets/team-bex.jpg" alt="Portrait of Bex, Founder and Creative Director of Siren Beauty + Wellness, smiling in a professional spa setting" loading="lazy">
                                 <div class="team-image-overlay"></div>
                             </div>
                         </div>
                         <div class="team-info">
-                            <h3>Sarah Mitchell</h3>
+                            <h3>Bex</h3>
                             <p class="team-title">Founder & Creative Director</p>
-                            <p class="team-bio">Sarah founded Siren Beauty + Wellness with a vision to create a space where aesthetic excellence meets holistic wellness. With over a decade of experience in the beauty and wellness industry, she brings a unique blend of clinical expertise and creative vision to every aspect of the spa.</p>
-                            <p class="team-bio">Her philosophy centers on enhancing natural beauty through personalized, science-backed treatments delivered in a nurturing environment. Sarah is passionate about empowering clients to feel confident and radiant in their own skin.</p>
+                            <p class="team-bio">Bex founded Siren Beauty + Wellness with a vision to create a sanctuary where aesthetic excellence meets holistic wellness. With over a decade of experience in the beauty and wellness industry, she brings a unique blend of clinical expertise and creative vision to every aspect of the spa.</p>
+                            <p class="team-bio">Her philosophy centers on enhancing natural beauty through personalized, science-backed treatments delivered in a nurturing environment. Bex is passionate about empowering clients to feel confident and radiant in their own skin.</p>
                             <ul class="team-credentials">
                                 <li>Certified Aesthetic Specialist</li>
                                 <li>Advanced Injectable Training</li>
                                 <li>10+ Years Industry Experience</li>
+                                <li>Woman-Owned Business Leader</li>
                             </ul>
                         </div>
                     </article>
                     
-                    <!-- Team Member 2 - Esthetician -->
+                    <!-- Team Member 2 - Skylar (Lead Esthetician) -->
                     <article class="team-member">
                         <div class="team-photo">
                             <div class="team-image-wrapper">
-                                <img src="images/team-esthetician.jpg" alt="Portrait of Emily Rodriguez, Lead Esthetician at Siren Beauty + Wellness" loading="lazy">
+                                <img src="assets/team-skylar.jpg" alt="Portrait of Skylar, Lead Esthetician at Siren Beauty + Wellness, in professional spa attire" loading="lazy">
                                 <div class="team-image-overlay"></div>
                             </div>
                         </div>
                         <div class="team-info">
-                            <h3>Emily Rodriguez</h3>
+                            <h3>Skylar</h3>
                             <p class="team-title">Lead Esthetician</p>
-                            <p class="team-bio">Emily brings artistry and precision to every treatment she performs. As our lead esthetician, she specializes in advanced injectable techniques and has a gift for creating beautifully natural results that enhance each client's unique features.</p>
-                            <p class="team-bio">Her approach is both meticulous and intuitive, combining technical skill with a deep understanding of facial aesthetics. Emily takes pride in building lasting relationships with clients and guiding them on their aesthetic journey with expertise and compassion.</p>
+                            <p class="team-bio">Skylar brings artistry and precision to every treatment she performs. As our lead esthetician, she specializes in advanced injectable techniques and has a gift for creating beautifully natural results that enhance each client's unique features.</p>
+                            <p class="team-bio">Her approach is both meticulous and intuitive, combining technical skill with a deep understanding of facial aesthetics. Skylar takes pride in building lasting relationships with clients and guiding them on their aesthetic journey with expertise and compassion.</p>
                             <ul class="team-credentials">
                                 <li>Licensed Master Esthetician</li>
                                 <li>Advanced Dermal Filler Certification</li>
@@ -177,21 +205,21 @@
                         
                         <div class="location-features">
                             <div class="feature-item">
-                                <span class="feature-icon" aria-hidden="true">🅿️</span>
+                                <span class="feature-icon" aria-hidden="true">ðŸ…¿ï¸</span>
                                 <div>
                                     <h4>Free Parking</h4>
                                     <p>Convenient free parking available right outside our door</p>
                                 </div>
                             </div>
                             <div class="feature-item">
-                                <span class="feature-icon" aria-hidden="true">♿</span>
+                                <span class="feature-icon" aria-hidden="true">â™¿</span>
                                 <div>
                                     <h4>Accessible</h4>
                                     <p>Wheelchair accessible entrance and facilities</p>
                                 </div>
                             </div>
                             <div class="feature-item">
-                                <span class="feature-icon" aria-hidden="true">🌳</span>
+                                <span class="feature-icon" aria-hidden="true">ðŸŒ³</span>
                                 <div>
                                     <h4>Tranquil Setting</h4>
                                     <p>Peaceful environment perfect for relaxation and self-care</p>
@@ -202,7 +230,7 @@
                     <div class="location-map">
                         <!-- Placeholder for Google Maps embed -->
                         <div class="map-placeholder">
-                            <p>📍 Interactive map coming soon</p>
+                            <p>ðŸ“ Interactive map coming soon</p>
                             <p class="small">Downtown Historic District, Buda, TX 78610</p>
                         </div>
                     </div>
