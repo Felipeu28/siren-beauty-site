@@ -21,8 +21,17 @@
         <nav class="navbar" role="navigation" aria-label="Main navigation">
             <div class="container">
                 <a href="index.html" class="logo" aria-label="Siren Beauty + Wellness Home">
+                    <div class="logo-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 10 C35 10, 25 20, 25 35 C25 45, 30 55, 40 60 L40 75 C40 80, 45 85, 50 85 C55 85, 60 80, 60 75 L60 60 C70 55, 75 45, 75 35 C75 20, 65 10, 50 10 Z" fill="currentColor"/>
+                            <path d="M35 75 Q30 80, 25 85" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M65 75 Q70 80, 75 85" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text-group">
                     <span class="logo-text">SIREN</span>
                     <span class="logo-subtitle">Beauty + Wellness</span>
+                    </div>
                 </a>
                 
                 <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -37,6 +46,24 @@
                     <li><a href="services.html" class="active" aria-current="page">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="index.html#book" class="btn-primary">Book Now</a></li>
+                    <li>
+                        <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+                            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="5"/>
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </svg>
+                            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -51,7 +78,257 @@
             </div>
         </section>
         
-        <!-- Services Introduction -->
+        <!-- Services Grid - Enhanced Card Layout -->
+        <section class="services-showcase section-padding">
+            <div class="container">
+                <div class="services-cards-grid">
+                    
+                    <!-- Service Card 1: Neurotoxin -->
+                    <article class="service-showcase-card" id="neurotoxin">
+                        <div class="service-card-image">
+                            <img src="assets/service-neurotoxin.jpg" 
+                                 alt="Close-up of precise neurotoxin injection treatment being administered by skilled practitioner for wrinkle reduction" 
+                                 loading="lazy">
+                            <div class="service-card-overlay"></div>
+                            <span class="service-badge">Most Popular</span>
+                        </div>
+                        <div class="service-card-content">
+                            <div class="service-card-icon" aria-hidden="true">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                                </svg>
+                            </div>
+                            <h3>Neurotoxin Treatments</h3>
+                            <p class="service-card-subtitle">Botox â€¢ Dysport</p>
+                            <p class="service-card-description">Smooth fine lines and wrinkles with precision-administered neurotoxin treatments. Creates natural, refreshed results.</p>
+                            
+                            <ul class="service-quick-benefits">
+                                <li>Forehead lines & crow's feet</li>
+                                <li>Frown lines between brows</li>
+                                <li>3-4 months duration</li>
+                                <li>No downtime required</li>
+                            </ul>
+                            
+                            <div class="service-card-pricing">
+                                <span class="price-label">Starting at</span>
+                                <span class="price-amount">$12/unit</span>
+                            </div>
+                            
+                            <a href="https://booking.mangomint.com" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Treatment
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 2: Sculptra -->
+                    <article class="service-showcase-card" id="sculptra">
+                        <div class="service-card-image">
+                            <img src="assets/service-sculptra.jpg" 
+                                 alt="Sculptra collagen stimulator treatment vial and application for natural facial volume restoration" 
+                                 loading="lazy">
+                            <div class="service-card-overlay"></div>
+                            <span class="service-badge">Long-Lasting</span>
+                        </div>
+                        <div class="service-card-content">
+                            <div class="service-card-icon" aria-hidden="true">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <h3>Sculptra</h3>
+                            <p class="service-card-subtitle">Collagen Stimulator</p>
+                            <p class="service-card-description">Stimulate natural collagen production for gradual, long-lasting volume restoration. Perfect for natural-looking rejuvenation.</p>
+                            
+                            <ul class="service-quick-benefits">
+                                <li>Restores facial volume</li>
+                                <li>Improves skin texture</li>
+                                <li>Results last 2+ years</li>
+                                <li>Natural collagen boost</li>
+                            </ul>
+                            
+                            <div class="service-card-pricing">
+                                <span class="price-label">Price</span>
+                                <span class="price-amount">$850/vial</span>
+                            </div>
+                            
+                            <a href="https://booking.mangomint.com" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Treatment
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 3: Lip Enhancement -->
+                    <article class="service-showcase-card" id="lip-filler">
+                        <div class="service-card-image">
+                            <img src="assets/service-lips.jpg" 
+                                 alt="Natural lip enhancement with dermal filler showing beautiful, balanced results in clinical setting" 
+                                 loading="lazy">
+                            <div class="service-card-overlay"></div>
+                            <span class="service-badge">Natural Results</span>
+                        </div>
+                        <div class="service-card-content">
+                            <div class="service-card-icon" aria-hidden="true">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </div>
+                            <h3>Lip Enhancement</h3>
+                            <p class="service-card-subtitle">Dermal Fillers</p>
+                            <p class="service-card-description">Achieve beautifully balanced lips with expert filler application. We enhance your natural features while maintaining proportion.</p>
+                            
+                            <ul class="service-quick-benefits">
+                                <li>Natural-looking fullness</li>
+                                <li>Improved symmetry</li>
+                                <li>6-12 months duration</li>
+                                <li>Customized to your goals</li>
+                            </ul>
+                            
+                            <div class="service-card-pricing">
+                                <span class="price-label">Starting at</span>
+                                <span class="price-amount">$550+</span>
+                            </div>
+                            
+                            <a href="https://booking.mangomint.com" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Treatment
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 4: Dermal Fillers -->
+                    <article class="service-showcase-card">
+                        <div class="service-card-image">
+                            <img src="assets/service-fillers.jpg" 
+                                 alt="Professional dermal filler treatment for facial contouring and volume restoration" 
+                                 loading="lazy">
+                            <div class="service-card-overlay"></div>
+                        </div>
+                        <div class="service-card-content">
+                            <div class="service-card-icon" aria-hidden="true">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                                </svg>
+                            </div>
+                            <h3>Dermal Fillers</h3>
+                            <p class="service-card-subtitle">Volume & Contouring</p>
+                            <p class="service-card-description">Restore volume, smooth wrinkles, and enhance facial contours with premium hyaluronic acid fillers.</p>
+                            
+                            <ul class="service-quick-benefits">
+                                <li>Cheeks & under-eye area</li>
+                                <li>Jawline definition</li>
+                                <li>Nasolabial folds</li>
+                                <li>6-18 months duration</li>
+                            </ul>
+                            
+                            <div class="service-card-pricing">
+                                <span class="price-label">Starting at</span>
+                                <span class="price-amount">$600/syringe</span>
+                            </div>
+                            
+                            <a href="https://booking.mangomint.com" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Treatment
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 5: Skin Rejuvenation -->
+                    <article class="service-showcase-card">
+                        <div class="service-card-image">
+                            <img src="assets/service-skin.jpg" 
+                                 alt="Advanced skin rejuvenation treatment showing glowing, refreshed complexion results" 
+                                 loading="lazy">
+                            <div class="service-card-overlay"></div>
+                            <span class="service-badge">Coming Soon</span>
+                        </div>
+                        <div class="service-card-content">
+                            <div class="service-card-icon" aria-hidden="true">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                                    <line x1="9" y1="9" x2="9.01" y2="9"/>
+                                    <line x1="15" y1="9" x2="15.01" y2="9"/>
+                                </svg>
+                            </div>
+                            <h3>Skin Rejuvenation</h3>
+                            <p class="service-card-subtitle">Coming Soon</p>
+                            <p class="service-card-description">Advanced treatments to improve skin texture, tone, and radiance. Microneedling, chemical peels, and more.</p>
+                            
+                            <ul class="service-quick-benefits">
+                                <li>Improves texture & tone</li>
+                                <li>Reduces fine lines</li>
+                                <li>Brightens complexion</li>
+                                <li>Minimizes pores</li>
+                            </ul>
+                            
+                            <div class="service-card-pricing">
+                                <span class="price-label">Price</span>
+                                <span class="price-amount">Varies</span>
+                            </div>
+                            
+                            <a href="contact.html" class="btn-service-book btn-service-secondary">
+                                Learn More
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 6: Consultation -->
+                    <article class="service-showcase-card">
+                        <div class="service-card-image">
+                            <img src="assets/service-consultation.jpg" 
+                                 alt="Personalized aesthetic consultation with expert practitioner in comfortable spa setting" 
+                                 loading="lazy">
+                            <div class="service-card-overlay"></div>
+                            <span class="service-badge">Free</span>
+                        </div>
+                        <div class="service-card-content">
+                            <div class="service-card-icon" aria-hidden="true">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                                </svg>
+                            </div>
+                            <h3>Personalized Consultation</h3>
+                            <p class="service-card-subtitle">Complimentary</p>
+                            <p class="service-card-description">Expert assessment of your aesthetic goals with customized treatment recommendations tailored to you.</p>
+                            
+                            <ul class="service-quick-benefits">
+                                <li>Facial analysis</li>
+                                <li>Treatment planning</li>
+                                <li>Questions answered</li>
+                                <li>No pressure approach</li>
+                            </ul>
+                            
+                            <div class="service-card-pricing">
+                                <span class="price-label">Investment</span>
+                                <span class="price-amount">Free</span>
+                            </div>
+                            
+                            <a href="https://booking.mangomint.com" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Consultation
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
         <section class="services-intro section-padding">
             <div class="container text-center">
                 <p class="intro-text">At Siren Beauty + Wellness, we offer a curated selection of premium aesthetic treatments designed to enhance your natural beauty. Each service is performed with precision, artistry, and a deep commitment to your safety and satisfaction.</p>
@@ -307,7 +584,7 @@
                     
                     <div class="faq-item">
                         <h3>What's included in a consultation?</h3>
-                        <p>During your complimentary consultation, we'll discuss your goals, assess your facial anatomy, recommend appropriate treatments, and create a personalized plan. There's no pressure—we want you to feel informed and confident.</p>
+                        <p>During your complimentary consultation, we'll discuss your goals, assess your facial anatomy, recommend appropriate treatments, and create a personalized plan. There's no pressureâ€”we want you to feel informed and confident.</p>
                     </div>
                 </div>
             </div>
