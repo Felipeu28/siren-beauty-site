@@ -7,6 +7,31 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     /* =========================================================================
+       DARK MODE TOGGLE
+       ========================================================================= */
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    
+    // Check for saved dark mode preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+    }
+    
+    // Toggle dark mode
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            
+            // Save preference
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    }
+    
+    /* =========================================================================
        MOBILE NAVIGATION TOGGLE
        ========================================================================= */
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
@@ -399,7 +424,7 @@ document.addEventListener('DOMContentLoaded', function() {
     /* =========================================================================
        CONSOLE LOG (Development Only - Remove in Production)
        ========================================================================= */
-    console.log('Siren Beauty + Wellness website initialized successfully! 🌊✨');
+    console.log('Siren Beauty + Wellness website initialized successfully! ðŸŒŠâœ¨');
     
 });
 
