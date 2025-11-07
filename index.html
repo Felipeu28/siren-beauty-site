@@ -3,240 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Siren Beauty + Wellness - Woman-founded aesthetic boutique med spa in Buda, TX. Expert Botox, dermal fillers, and wellness treatments in a mindful, luxurious setting.">
-    <meta name="keywords" content="med spa Buda TX, Botox Buda, dermal fillers Austin, aesthetic spa Texas, beauty wellness Buda, Sculptra Austin, lip filler Buda">
-    <meta name="author" content="Siren Beauty + Wellness">
+    <meta name="description" content="Siren Beauty + Wellness - A woman-founded aesthetic boutique med spa in Buda, Texas. Experience personalized beauty treatments that nurture body and spirit.">
+    <meta name="keywords" content="med spa Buda TX, Botox near me, aesthetic treatments, skin care, beauty spa Texas, wellness center">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sirenbeautywellness.com/">
-    <meta property="og:title" content="Siren Beauty + Wellness | Med Spa in Buda, TX">
-    <meta property="og:description" content="Woman-founded aesthetic boutique med spa offering mindful, science-backed treatments in downtown Buda, Texas.">
-    <meta property="og:image" content="/images/og-image.jpg">
+    <meta property="og:title" content="Siren Beauty + Wellness | Aesthetic Boutique Med Spa">
+    <meta property="og:description" content="Woman-founded med spa in Buda, TX offering personalized aesthetic treatments.">
+    <meta property="og:image" content="assets/storefront.webp">
     
-    <!-- Structured Data for Local Business -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalBusiness",
-      "name": "Siren Beauty + Wellness",
-      "image": "https://sirenbeautywellness.com/images/logo.png",
-      "description": "Woman-founded aesthetic boutique med spa in Buda, TX",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Downtown Historic District",
-        "addressLocality": "Buda",
-        "addressRegion": "TX",
-        "postalCode": "78610",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 30.0852,
-        "longitude": -97.8403
-      },
-      "url": "https://sirenbeautywellness.com",
-      "priceRange": "$$-$$$",
-      "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-16:00"
-    }
-    </script>
-    
-    <title>Siren Beauty + Wellness | Med Spa Buda TX | Botox, Fillers & Aesthetic Treatments</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <title>Siren Beauty + Wellness | Aesthetic Boutique Med Spa in Buda, TX</title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧜‍♀️%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-    <!-- Skip to main content for accessibility -->
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-    
-    <!-- Header with sticky navigation -->
+    <!-- Header with Navigation -->
     <header class="site-header" role="banner">
-        <nav class="navbar" role="navigation" aria-label="Main navigation">
-            <div class="container">
-                <a href="index.html" class="logo" aria-label="Siren Beauty + Wellness Home">
-                    <span class="logo-text">SIREN</span>
-                    <span class="logo-subtitle">Beauty + Wellness</span>
-                </a>
-                
-                <!-- Mobile menu toggle -->
-                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                </button>
-                
-                <!-- Navigation links -->
+        <nav class="container nav-container" aria-label="Main navigation">
+            <!-- Logo with prominent siren icon -->
+            <a href="index.html" class="logo" aria-label="Siren Beauty + Wellness Home">
+                <svg class="logo-icon" width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <circle cx="50" cy="50" r="48" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M50 20 C35 25, 35 40, 50 45 C65 40, 65 25, 50 20 Z" fill="currentColor"/>
+                    <ellipse cx="50" cy="55" rx="15" ry="20" fill="currentColor"/>
+                    <path d="M35 75 Q50 85, 65 75" stroke="currentColor" stroke-width="3" fill="none"/>
+                    <circle cx="43" cy="40" r="2" fill="white"/>
+                    <circle cx="57" cy="40" r="2" fill="white"/>
+                </svg>
+                <span class="logo-text">
+                    <span class="logo-main">Siren Beauty</span>
+                    <span class="logo-sub">+ Wellness</span>
+                </span>
+            </a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <div class="nav-menu">
                 <ul class="nav-links">
                     <li><a href="index.html" class="active" aria-current="page">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#book" class="btn-primary">Book Now</a></li>
+                    <li><a href="https://booking.mangomint.com/sirenbeautyandwellness" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Book Now</a></li>
+                    <!-- Dark Mode Toggle -->
+                    <li>
+                        <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+                            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="5"/>
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </svg>
+                            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
     
-    <!-- Main content -->
+    <!-- Main Content -->
     <main id="main-content">
-        <!-- Hero Section - Enhanced with marble texture overlay and luxury branding -->
-        <section class="hero" aria-labelledby="hero-title">
-            <!-- Marble texture overlay for spa aesthetic -->
+        <!-- Hero Section with Storefront Background -->
+        <section class="hero" aria-labelledby="hero-title" style="background-image: url('assets/storefront.webp');">
+            <!-- Multi-layer overlay system for text readability -->
+            <div class="hero-image-overlay"></div>
+            <div class="hero-gradient-overlay"></div>
             <div class="hero-marble-overlay"></div>
-            <div class="hero-overlay"></div>
+            
             <div class="hero-content">
-                <!-- Logo integration in hero for brand presence -->
-                <div class="hero-logo" aria-hidden="true">
-                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <circle cx="50" cy="50" r="45" stroke="currentColor" stroke-width="2" opacity="0.6"/>
-                        <path d="M50 20 Q65 35, 50 50 Q35 35, 50 20 Z" fill="currentColor" opacity="0.8"/>
-                        <path d="M50 50 Q65 65, 50 80 Q35 65, 50 50 Z" fill="currentColor" opacity="0.8"/>
-                    </svg>
-                </div>
-                <h1 id="hero-title">Where Beauty and Wellness Go Hand in Hand</h1>
-                <p class="hero-subtitle">Woman-Founded Aesthetic Boutique Med Spa in Buda, TX</p>
-                <p class="hero-tagline">Slow Down. Breathe Deeply. Embrace Your Rituals.</p>
+                <!-- Prominent Siren Icon -->
+                <svg class="hero-siren-icon" width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <circle cx="50" cy="50" r="48" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M50 20 C35 25, 35 40, 50 45 C65 40, 65 25, 50 20 Z" fill="currentColor"/>
+                    <ellipse cx="50" cy="55" rx="15" ry="20" fill="currentColor"/>
+                    <path d="M35 75 Q50 85, 65 75" stroke="currentColor" stroke-width="3" fill="none"/>
+                    <circle cx="43" cy="40" r="2" fill="white"/>
+                    <circle cx="57" cy="40" r="2" fill="white"/>
+                </svg>
+                
+                <h1 id="hero-title">Welcome to Siren Beauty + Wellness</h1>
+                <p class="hero-subtitle">Your Sanctuary for Aesthetic Excellence</p>
+                <p class="hero-tagline">Where Beauty and Wellness Go Hand in Hand</p>
+                
                 <div class="hero-cta-group">
-                    <a href="#book" class="btn-hero-primary" aria-label="Book your appointment now">Book Your Experience</a>
-                    <a href="#philosophy" class="btn-hero-secondary" aria-label="Learn about our philosophy">Learn More</a>
+                    <a href="https://booking.mangomint.com/sirenbeautyandwellness" class="btn btn-hero-primary" target="_blank" rel="noopener noreferrer">
+                        Book Your Transformation
+                    </a>
+                    <a href="#services" class="btn btn-hero-secondary">Explore Services</a>
                 </div>
             </div>
-            <!-- Decorative wave divider -->
-            <div class="wave-divider" aria-hidden="true">
-                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="currentColor"></path>
-                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" fill="currentColor"></path>
-                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="currentColor"></path>
+            
+            <!-- Wave Divider -->
+            <div class="wave-divider">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="currentColor"></path>
                 </svg>
             </div>
         </section>
         
         <!-- Philosophy Section -->
-        <section class="philosophy section-padding" aria-labelledby="philosophy-title">
+        <section class="philosophy section" aria-labelledby="philosophy-title">
             <div class="container">
-                <div class="section-header">
-                    <h2 id="philosophy-title">Our Philosophy</h2>
-                    <div class="divider"></div>
-                </div>
-                <div class="philosophy-content">
+                <div class="content-grid">
                     <div class="philosophy-text">
-                        <p class="lead">At Siren Beauty + Wellness, we believe that true beauty radiates from within. Our approach combines science-backed aesthetic treatments with mindful wellness practices to nurture both body and spirit.</p>
-                        <p>We invite you to slow down, breathe deeply, and embrace rituals that restore and rejuvenate. Every treatment is personalized, every moment intentional, and every visit an opportunity to reconnect with yourself.</p>
-                        <p>As a woman-founded, locally owned boutique med spa in downtown Buda's historic district, we're proud to bring world-class aesthetic care to our community with warmth, expertise, and heart.</p>
+                        <h2 id="philosophy-title">Our Philosophy</h2>
+                        <div class="divider-left"></div>
+                        <p>At Siren Beauty + Wellness, we believe that <strong>beauty and wellness go hand in hand</strong>. True radiance comes from feeling good inside and out.</p>
+                        <p>Our approach combines science-backed aesthetic treatments with mindful wellness practices. Every service is designed to not just enhance your appearance, but to nurture your whole being.</p>
+                        <p>We invite you to slow down, breathe deeply, and embrace rituals that restore your natural glow. This is your sanctuary—a place where you're seen, heard, and celebrated.</p>
+                        <a href="about.html" class="btn btn-secondary">Learn Our Story</a>
                     </div>
                     <div class="philosophy-image">
-                        <img src="images/spa-interior.jpg" alt="Luxurious and serene spa treatment room with soft lighting and calming decor" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&h=700&fit=crop" 
+                             alt="Serene spa environment with natural light and calming decor" 
+                             loading="lazy">
                     </div>
                 </div>
             </div>
         </section>
         
         <!-- Featured Services Section -->
-        <section class="featured-services section-padding bg-light" aria-labelledby="services-title">
+        <section id="services" class="services-showcase section" aria-labelledby="services-title">
             <div class="container">
                 <div class="section-header">
-                    <h2 id="services-title">Signature Treatments</h2>
+                    <h2 id="services-title">Signature Services</h2>
                     <div class="divider"></div>
-                    <p class="section-subtitle">Expertly crafted treatments to enhance your natural beauty</p>
+                    <p class="section-subtitle">Discover our curated collection of transformative treatments designed to enhance your natural beauty</p>
+                </div>
+                
+                <div class="services-cards-grid">
+                    <!-- Service Card 1: Neurotoxin -->
+                    <article class="service-showcase-card">
+                        <div class="service-card-image">
+                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&h=400&fit=crop" 
+                                 alt="Professional aesthetic treatment being administered in a luxury spa setting" 
+                                 loading="lazy">
+                            <div class="service-badge">Most Popular</div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3>Neurotoxin (Botox)</h3>
+                            <p class="service-card-subtitle">Anti-Aging Injectable</p>
+                            <p class="service-card-description">Smooth away fine lines and wrinkles with precision neurotoxin treatments. Our expert injectors create natural-looking results that let your true beauty shine through.</p>
+                            <ul class="service-quick-benefits">
+                                <li>Reduces forehead lines & crow's feet</li>
+                                <li>Prevents new wrinkle formation</li>
+                                <li>Results visible within 3-7 days</li>
+                                <li>Lasts 3-4 months</li>
+                            </ul>
+                            <div class="service-card-pricing">
+                                <span class="price-label">Starting at</span>
+                                <span class="price-amount">$12/unit</span>
+                            </div>
+                            <a href="https://booking.mangomint.com/sirenbeautyandwellness" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Treatment
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 2: Sculptra -->
+                    <article class="service-showcase-card">
+                        <div class="service-card-image">
+                            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=400&fit=crop" 
+                                 alt="Elegant facial treatment in a modern medical spa environment" 
+                                 loading="lazy">
+                            <div class="service-badge">Luxury Treatment</div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3>Sculptra</h3>
+                            <p class="service-card-subtitle">Collagen Stimulator</p>
+                            <p class="service-card-description">Restore youthful volume naturally with Sculptra, a bio-stimulator that works with your body to rebuild collagen over time for subtle, long-lasting results.</p>
+                            <ul class="service-quick-benefits">
+                                <li>Stimulates natural collagen production</li>
+                                <li>Gradual, natural-looking results</li>
+                                <li>Addresses age-related volume loss</li>
+                                <li>Results last up to 2 years</li>
+                            </ul>
+                            <div class="service-card-pricing">
+                                <span class="price-label">Per Vial</span>
+                                <span class="price-amount">$850</span>
+                            </div>
+                            <a href="https://booking.mangomint.com/sirenbeautyandwellness" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Consultation
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Service Card 3: Lip Filler -->
+                    <article class="service-showcase-card">
+                        <div class="service-card-image">
+                            <img src="https://images.unsplash.com/photo-1596704017254-9b121068ec31?w=600&h=400&fit=crop" 
+                                 alt="Beautiful lips showcasing natural enhancement results" 
+                                 loading="lazy">
+                            <div class="service-badge">Signature</div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3>Lip Filler</h3>
+                            <p class="service-card-subtitle">Dermal Filler Enhancement</p>
+                            <p class="service-card-description">Achieve the perfect pout with expertly placed hyaluronic acid fillers. Whether you desire subtle definition or dramatic volume, we create beautiful, balanced results.</p>
+                            <ul class="service-quick-benefits">
+                                <li>Enhances lip volume & shape</li>
+                                <li>Smooths vertical lip lines</li>
+                                <li>Customizable results</li>
+                                <li>Lasts 6-12 months</li>
+                            </ul>
+                            <div class="service-card-pricing">
+                                <span class="price-label">Per Syringe</span>
+                                <span class="price-amount">$600</span>
+                            </div>
+                            <a href="https://booking.mangomint.com/sirenbeautyandwellness" class="btn-service-book" target="_blank" rel="noopener noreferrer">
+                                Book Consultation
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="services.html" class="btn btn-primary">View All Services</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Team Section -->
+        <section class="team section" aria-labelledby="team-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="team-title">Meet Our Team</h2>
+                    <div class="divider"></div>
+                    <p class="section-subtitle">Passionate experts dedicated to your beauty and wellness journey</p>
                 </div>
                 
                 <div class="services-grid">
-                    <!-- Service Card 1 -->
-                    <article class="service-card">
-                        <div class="service-icon" aria-hidden="true">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                            </svg>
+                    <!-- Team Member 1: Bex -->
+                    <article class="team-member">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&h=500&fit=crop" 
+                                 alt="Bex Torres, Creative Director and Aesthetic Injector at Siren Beauty + Wellness" 
+                                 loading="lazy">
                         </div>
-                        <h3>Neurotoxin Treatments</h3>
-                        <p>Smooth fine lines and wrinkles with precision-administered Botox and Dysport treatments. Our expert injectors create natural-looking results that enhance your features.</p>
-                        <p class="service-price">Starting at $12/unit</p>
-                        <a href="services.html#neurotoxin" class="btn-secondary">Learn More</a>
+                        <div class="team-info">
+                            <h3 class="team-name">Bex Torres</h3>
+                            <p class="team-role">Creative Director ~ Aesthetic Injector</p>
+                            <p class="team-bio">Our seasoned aesthetic injector comes to you with over a decade of experience in the aesthetic industry. Her passion is enhancing your natural beauty through extensive training with top industry leaders.</p>
+                            <p class="team-bio">Bex has honed her skills in administering a wide range of injectables and advanced laser treatments. With a deep understanding of facial anatomy and commitment to patient satisfaction, she works closely with each client to develop personalized treatment plans.</p>
+                            <ul class="team-credentials" aria-label="Bex's credentials">
+                                <li>10+ years aesthetic industry experience</li>
+                                <li>Advanced certification in injectables</li>
+                                <li>Laser treatment specialist</li>
+                                <li>Trusted injector in Austin ATX + Buda BTX</li>
+                            </ul>
+                            <p class="team-tagline">"Your beauty, her excellence"</p>
+                        </div>
                     </article>
                     
-                    <!-- Service Card 2 -->
-                    <article class="service-card">
-                        <div class="service-icon" aria-hidden="true">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 6v6l4 2"/>
-                            </svg>
+                    <!-- Team Member 2: Skylar -->
+                    <article class="team-member">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop" 
+                                 alt="Skylar Wright, Skin + Beauty Specialist and Licensed Esthetician at Siren Beauty + Wellness" 
+                                 loading="lazy">
                         </div>
-                        <h3>Sculptra</h3>
-                        <p>Stimulate your skin's natural collagen production for gradual, long-lasting volume restoration. Perfect for addressing facial aging and achieving a youthful, refreshed appearance.</p>
-                        <p class="service-price">$850/vial</p>
-                        <a href="services.html#sculptra" class="btn-secondary">Learn More</a>
-                    </article>
-                    
-                    <!-- Service Card 3 -->
-                    <article class="service-card">
-                        <div class="service-icon" aria-hidden="true">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-                            </svg>
+                        <div class="team-info">
+                            <h3 class="team-name">Skylar Wright</h3>
+                            <p class="team-role">Skin + Beauty Specialist ~ Esthetician LE</p>
+                            <p class="team-bio">Skylar is a licensed esthetician and Buda native, bringing artistry and heart to Siren Beauty + Wellness. As the very first esthetician to join the team, she helps shape the future of Siren by blending her passion for skin health with her artistic eye.</p>
+                            <p class="team-bio">From a young age, Skylar loved painting and sketching, finding creativity to be both an outlet and a way to see the world in detail. Today, she channels that same artistic touch into her esthetic practice, treating every skincare service as a unique canvas to enhance your natural beauty.</p>
+                            <ul class="team-credentials" aria-label="Skylar's credentials">
+                                <li>Licensed Esthetician</li>
+                                <li>Buda native with local community roots</li>
+                                <li>Artistic approach to skincare</li>
+                                <li>Specialized in personalized treatments</li>
+                            </ul>
+                            <p class="team-tagline">"Your beauty, her polished perfection"</p>
                         </div>
-                        <h3>Lip Enhancement</h3>
-                        <p>Achieve beautifully balanced, natural-looking lips with our expertly administered dermal filler treatments. We enhance your unique features while maintaining harmony and proportion.</p>
-                        <p class="service-price">$550+</p>
-                        <a href="services.html#lip-filler" class="btn-secondary">Learn More</a>
                     </article>
                 </div>
                 
-                <div class="text-center mt-4">
-                    <a href="services.html" class="btn-primary">View All Services</a>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="about.html" class="btn btn-secondary">Learn More About Us</a>
                 </div>
             </div>
         </section>
         
-        <!-- Why Choose Us Section -->
-        <section class="why-choose section-padding" aria-labelledby="why-choose-title">
+        <!-- Testimonials Section -->
+        <section class="testimonials section" aria-labelledby="testimonials-title">
             <div class="container">
                 <div class="section-header">
-                    <h2 id="why-choose-title">Why Choose Siren</h2>
-                    <div class="divider"></div>
-                </div>
-                
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <div class="feature-icon" aria-hidden="true">✨</div>
-                        <h3>Expert Practitioners</h3>
-                        <p>Our experienced team brings precision, artistry, and medical expertise to every treatment.</p>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon" aria-hidden="true">🌿</div>
-                        <h3>Holistic Approach</h3>
-                        <p>We treat the whole person, combining aesthetics with wellness for comprehensive care.</p>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon" aria-hidden="true">💎</div>
-                        <h3>Premium Quality</h3>
-                        <p>We use only the highest quality products and latest techniques for optimal results.</p>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon" aria-hidden="true">📍</div>
-                        <h3>Local & Accessible</h3>
-                        <p>Conveniently located in downtown Buda's historic district with free parking.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Testimonials Section - New addition for social proof -->
-        <section class="testimonials section-padding" aria-labelledby="testimonials-title">
-            <div class="container">
-                <div class="section-header text-center">
                     <h2 id="testimonials-title">What Our Clients Say</h2>
                     <div class="divider"></div>
-                    <p class="section-subtitle">Real experiences from real people who trust us with their beauty journey</p>
+                    <p class="section-subtitle">Real experiences from our beautiful community</p>
                 </div>
                 
                 <div class="testimonials-grid">
@@ -244,15 +330,13 @@
                     <article class="testimonial-card">
                         <div class="testimonial-stars" aria-label="5 star rating">★★★★★</div>
                         <blockquote>
-                            <p>"The team at Siren made me feel so comfortable during my first Botox treatment. The results are natural and exactly what I wanted. I finally found a med spa I trust!"</p>
+                            <p>Bex is absolutely amazing! She really takes the time to understand what you want and delivers natural-looking results every time. The spa is beautiful and so relaxing. I always leave feeling refreshed and confident!</p>
                         </blockquote>
                         <div class="testimonial-author">
-                            <div class="author-avatar" aria-hidden="true">
-                                <span>JM</span>
-                            </div>
+                            <div class="author-avatar" aria-hidden="true">SM</div>
                             <div class="author-info">
-                                <cite class="author-name">Jessica M.</cite>
-                                <p class="author-location">Buda, TX</p>
+                                <cite class="author-name">Sarah M.</cite>
+                                <p class="author-location">Austin, TX</p>
                             </div>
                         </div>
                     </article>
@@ -261,15 +345,13 @@
                     <article class="testimonial-card">
                         <div class="testimonial-stars" aria-label="5 star rating">★★★★★</div>
                         <blockquote>
-                            <p>"Beautiful spa with a calming atmosphere. The Sculptra treatments have transformed my skin over the past few months. Highly recommend to anyone looking for natural results!"</p>
+                            <p>I was nervous about my first time getting Botox, but Bex made me feel so comfortable. She explained everything thoroughly and the results are incredible. I look refreshed but still like myself. Highly recommend!</p>
                         </blockquote>
                         <div class="testimonial-author">
-                            <div class="author-avatar" aria-hidden="true">
-                                <span>LR</span>
-                            </div>
+                            <div class="author-avatar" aria-hidden="true">JR</div>
                             <div class="author-info">
-                                <cite class="author-name">Laura R.</cite>
-                                <p class="author-location">Austin, TX</p>
+                                <cite class="author-name">Jennifer R.</cite>
+                                <p class="author-location">Buda, TX</p>
                             </div>
                         </div>
                     </article>
@@ -278,14 +360,12 @@
                     <article class="testimonial-card">
                         <div class="testimonial-stars" aria-label="5 star rating">★★★★★</div>
                         <blockquote>
-                            <p>"Professional, skilled, and genuinely caring. My lip filler results are perfect - subtle and beautiful. The attention to detail here is unmatched. This is my go-to med spa!"</p>
+                            <p>Skylar's facials are out of this world! Her attention to detail and personalized approach make every visit special. My skin has never looked better. Siren Beauty is my happy place!</p>
                         </blockquote>
                         <div class="testimonial-author">
-                            <div class="author-avatar" aria-hidden="true">
-                                <span>SC</span>
-                            </div>
+                            <div class="author-avatar" aria-hidden="true">LP</div>
                             <div class="author-info">
-                                <cite class="author-name">Sarah C.</cite>
+                                <cite class="author-name">Lisa P.</cite>
                                 <p class="author-location">Kyle, TX</p>
                             </div>
                         </div>
@@ -294,15 +374,53 @@
             </div>
         </section>
         
-        <!-- Booking CTA Section -->
-        <section id="book" class="booking-cta section-padding bg-primary" aria-labelledby="booking-title">
-            <div class="container text-center">
-                <h2 id="booking-title" class="text-white">Ready to Begin Your Journey?</h2>
-                <p class="text-white lead">Book your personalized consultation today and discover the Siren difference.</p>
-                <a href="https://booking.mangomint.com" class="btn-white" target="_blank" rel="noopener noreferrer">Schedule Appointment</a>
-                <p class="financing-note text-white">
-                    <small>Flexible financing available through <a href="https://pay.withcherry.com" target="_blank" rel="noopener noreferrer" class="text-white underline">Cherry Payment Plans</a></small>
-                </p>
+        <!-- Location Section -->
+        <section class="location section" aria-labelledby="location-title">
+            <div class="container">
+                <div class="content-grid">
+                    <div>
+                        <h2 id="location-title">Where to Find Us</h2>
+                        <div class="divider-left"></div>
+                        <p>Nestled in the heart of <strong>historic downtown Buda, Texas</strong>, our boutique med spa offers a serene escape from the everyday.</p>
+                        <p>Enjoy <strong>free parking</strong> steps away from our door. We're proud to serve the Buda, Kyle, and greater Austin communities.</p>
+                        
+                        <div class="location-details">
+                            <div class="location-item">
+                                <strong>Address:</strong>
+                                <p>123 Main Street<br>Buda, TX 78610</p>
+                            </div>
+                            <div class="location-item">
+                                <strong>Hours:</strong>
+                                <p>Tuesday - Friday: 10am - 6pm<br>
+                                Saturday: 9am - 4pm<br>
+                                Sunday & Monday: Closed</p>
+                            </div>
+                            <div class="location-item">
+                                <strong>Contact:</strong>
+                                <p>Phone: <a href="tel:+15125551234">(512) 555-1234</a><br>
+                                Email: <a href="mailto:hello@sirenbeauty.com">hello@sirenbeauty.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+                    </div>
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=500&fit=crop" 
+                             alt="Historic downtown Buda, Texas street view" 
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action -->
+        <section class="cta-section section" aria-labelledby="cta-title">
+            <div class="container">
+                <h2 id="cta-title">Ready to Begin Your Journey?</h2>
+                <p>Book your appointment today and discover the transformative power of personalized beauty care.</p>
+                <a href="https://booking.mangomint.com/sirenbeautyandwellness" class="btn btn-hero-primary" target="_blank" rel="noopener noreferrer">
+                    Schedule Your Visit
+                </a>
             </div>
         </section>
     </main>
@@ -311,79 +429,84 @@
     <footer class="site-footer" role="contentinfo">
         <div class="container">
             <div class="footer-grid">
-                <!-- Company Info -->
-                <div class="footer-col">
+                <!-- Footer Column 1: About -->
+                <div class="footer-column">
                     <h3>Siren Beauty + Wellness</h3>
-                    <p>Woman-founded aesthetic boutique med spa in the heart of Buda, Texas.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
-                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <p>A woman-founded aesthetic boutique med spa in historic downtown Buda, Texas. Where beauty and wellness go hand in hand.</p>
+                    <div class="social-links" aria-label="Social media links">
+                        <a href="https://instagram.com/sirenbeauty" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                             </svg>
                         </a>
-                        <a href="#" aria-label="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
-                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <a href="https://facebook.com/sirenbeauty" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                             </svg>
                         </a>
                     </div>
                 </div>
                 
-                <!-- Quick Links -->
-                <div class="footer-col">
+                <!-- Footer Column 2: Quick Links -->
+                <div class="footer-column">
                     <h4>Quick Links</h4>
-                    <ul class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#book">Book Appointment</a></li>
+                        <li><a href="https://booking.mangomint.com/sirenbeautyandwellness" target="_blank" rel="noopener noreferrer">Book Appointment</a></li>
                     </ul>
                 </div>
                 
-                <!-- Contact Info -->
-                <div class="footer-col">
-                    <h4>Visit Us</h4>
-                    <address>
-                        <p>Downtown Historic District<br>
-                        Buda, TX 78610</p>
-                        <p><strong>Phone:</strong> <a href="tel:+15125551234">(512) 555-1234</a></p>
-                        <p><strong>Email:</strong> <a href="mailto:hello@sirenbeautywellness.com">hello@sirenbeautywellness.com</a></p>
-                    </address>
+                <!-- Footer Column 3: Services -->
+                <div class="footer-column">
+                    <h4>Popular Services</h4>
+                    <ul>
+                        <li><a href="services.html#neurotoxin">Botox & Neurotoxins</a></li>
+                        <li><a href="services.html#sculptra">Sculptra</a></li>
+                        <li><a href="services.html#lip-filler">Lip Filler</a></li>
+                        <li><a href="services.html#skincare">Facials & Skincare</a></li>
+                        <li><a href="services.html">View All Services</a></li>
+                    </ul>
                 </div>
                 
-                <!-- Hours -->
-                <div class="footer-col">
-                    <h4>Hours</h4>
-                    <ul class="hours-list">
-                        <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
-                        <li>Saturday: 10:00 AM - 4:00 PM</li>
-                        <li>Sunday: Closed</li>
+                <!-- Footer Column 4: Contact -->
+                <div class="footer-column">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><strong>Phone:</strong><br><a href="tel:+15125551234">(512) 555-1234</a></li>
+                        <li><strong>Email:</strong><br><a href="mailto:hello@sirenbeauty.com">hello@sirenbeauty.com</a></li>
+                        <li><strong>Address:</strong><br>123 Main Street<br>Buda, TX 78610</li>
                     </ul>
                 </div>
             </div>
             
+            <!-- Footer Bottom -->
             <div class="footer-bottom">
                 <p>&copy; 2024 Siren Beauty + Wellness. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="/privacy-policy.html">Privacy Policy</a>
+                    <a href="#privacy">Privacy Policy</a>
                     <span>|</span>
-                    <a href="/terms.html">Terms of Service</a>
+                    <a href="#terms">Terms of Service</a>
                 </div>
             </div>
         </div>
     </footer>
     
     <!-- Cookie Consent Banner -->
-    <div id="cookie-banner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc" hidden>
+    <aside class="cookie-banner" hidden aria-labelledby="cookie-title">
         <div class="cookie-content">
-            <h3 id="cookie-title">Cookie Consent</h3>
-            <p id="cookie-desc">We use cookies to enhance your browsing experience and analyze site traffic. By continuing to use our site, you consent to our use of cookies.</p>
+            <div>
+                <h3 id="cookie-title">We Value Your Privacy</h3>
+                <p>We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept", you consent to our use of cookies.</p>
+            </div>
             <div class="cookie-actions">
-                <button id="cookie-accept" class="btn-primary">Accept</button>
-                <button id="cookie-decline" class="btn-secondary">Decline</button>
+                <button id="cookie-accept" class="btn btn-primary">Accept</button>
+                <button id="cookie-decline" class="btn btn-secondary">Decline</button>
             </div>
         </div>
-    </div>
+    </aside>
     
     <!-- JavaScript -->
     <script src="script.js"></script>
