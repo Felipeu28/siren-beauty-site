@@ -20,8 +20,17 @@
         <nav class="navbar" role="navigation" aria-label="Main navigation">
             <div class="container">
                 <a href="index.html" class="logo" aria-label="Siren Beauty + Wellness Home">
+                    <div class="logo-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 10 C35 10, 25 20, 25 35 C25 45, 30 55, 40 60 L40 75 C40 80, 45 85, 50 85 C55 85, 60 80, 60 75 L60 60 C70 55, 75 45, 75 35 C75 20, 65 10, 50 10 Z" fill="currentColor"/>
+                            <path d="M35 75 Q30 80, 25 85" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M65 75 Q70 80, 75 85" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text-group">
                     <span class="logo-text">SIREN</span>
                     <span class="logo-subtitle">Beauty + Wellness</span>
+                    </div>
                 </a>
                 
                 <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -36,6 +45,24 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
                     <li><a href="index.html#book" class="btn-primary">Book Now</a></li>
+                    <li>
+                        <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+                            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="5"/>
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </svg>
+                            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -107,11 +134,11 @@
                         </form>
                         
                         <div id="form-success" class="form-message success-message" hidden>
-                            <p>✓ Thank you for contacting us! We'll respond within 24 hours.</p>
+                            <p>âœ“ Thank you for contacting us! We'll respond within 24 hours.</p>
                         </div>
                         
                         <div id="form-error" class="form-message error-message" hidden>
-                            <p>✗ Something went wrong. Please try again or call us directly.</p>
+                            <p>âœ— Something went wrong. Please try again or call us directly.</p>
                         </div>
                     </div>
                     
